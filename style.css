@@ -83,6 +83,7 @@ div.hero-container{
   max-width: 1400px;
   height: 40vh;
   min-height: 250px;
+  max-height: 600px;
   padding-top:.5rem ;
   margin:  auto auto;
   background-color: #e7e3d8;

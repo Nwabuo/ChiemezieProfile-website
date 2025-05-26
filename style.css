@@ -75,7 +75,6 @@ li a{
 li:nth-of-type(1) a{
   color: #fff;
   background-color: rgba(102, 85, 68, 0.8);
-  background-
 }
 
 div.hero-container{
@@ -83,7 +82,7 @@ div.hero-container{
   max-width: 1400px;
   height: 40vh;
   min-height: 250px;
-  max-height: 600px;
+  max-height: 400px;
   padding-top:.5rem ;
   margin:  auto auto;
   background-color: #e7e3d8;
@@ -98,6 +97,7 @@ div.hero{
   height: 80%;
   width: 90%;
   max-width: 1400px;
+
   margin: 15px auto 0 auto;
   display: flex;
   align-items: stretch;
@@ -190,8 +190,9 @@ h1.hero-heading{
   text-decoration: none;
   color: rgba(102, 85, 68, 1);
 }
-@media(max-width:76mm) {
+@media(max-width:750px) {
   nav.navbar{
+    max-width: 600px;
     
   }
   .logo{
@@ -204,15 +205,11 @@ h1.hero-heading{
   }
   
   li a{
-    font-size: 3px;
+    font-size: 8px;
     
   }
   .hero-text *{
     width: 120px !important;
-    
-    text-wrap: wrap;
-    
   }
-  p
-}
- 
+
+  p{

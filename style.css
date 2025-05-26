@@ -235,12 +235,12 @@ li a{
 }
   h1.hero-heading{
   color: #665544;
-  font-size: 24px;
+  font-size: 40px;
   padding:0 .3rem ;
 }
 
 .hero p.about{
-  font-size:14px;
+  font-size:28px;
   color:rgba(102, 85, 68, 0.5) ;
   font-weight: bold;
 }
@@ -248,7 +248,7 @@ li a{
 .hero p.role{
   padding:  .2rem .2rem;
   color: rgba(102, 85, 68, 1);
-  font-size: 18px;
+  font-size: 36px;
   font-weight: bold;
   background-color:rgba(102, 85, 68, 0.4);
   opacity: 1;

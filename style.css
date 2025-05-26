@@ -97,10 +97,9 @@ div.hero{
   height: 80%;
   width: 90%;
   max-width: 1400px;
-  
   margin: 15px auto 0 auto;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   gap: 1rem;
   border: 2px solid #d4d0c6;
@@ -190,7 +189,7 @@ h1.hero-heading{
   text-decoration: none;
   color: rgba(102, 85, 68, 1);
 }
-@media(max-width:720px) {
+@media(max-width:76mm) {
   nav.navbar{
     
   }

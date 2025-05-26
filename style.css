@@ -27,6 +27,7 @@ nav.navbar{
   margin: 2px auto;
   flex: 1;
   padding: 0 3%;
+  width: 90%;
   max-width: 1500px;
   color: #665544;
   display:flex;
@@ -37,7 +38,7 @@ nav.navbar{
 
 .logo{
   font-style: normal;
-  transform: Capitaalize;
+  transform: Capitaalize; 
 }
 
 .nav-items{
@@ -175,7 +176,7 @@ h1.hero-heading{
 }
 .hero-image{
   height:70% ;
-  max-height: 200px;
+  max-height: 300px;
   min-width: 100px;
   overflow: hidden;
   border-radius: 30% 0;
@@ -190,13 +191,14 @@ h1.hero-heading{
   text-decoration: none;
   color: rgba(102, 85, 68, 1);
 }
+
 @media(max-width:750px) {
   nav.navbar{
     max-width: 600px;
     
   }
   .logo{
-    font-size: 10px;
+    font-size: 18px;
     text-transform: capitalize;
     
   } 
@@ -204,12 +206,50 @@ h1.hero-heading{
     margin: 0;
   }
   
-  li a{
-    font-size: 8px;
-    
-  }
+li a{
+   padding: 5px 3px;
+   text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: expanded;
+  color: #665544;
+  border-radius: 2px;
+  
+ }
   .hero-text *{
     width: 120px !important;
   }
 
-  p{
+  .hero-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40%;
+  align-items: stretch;
+  /*border: 1px solid red;*/
+  
+}
+
+.hero-text p{
+  padding: .3rem .3rem ;
+}
+  h1.hero-heading{
+  color: #665544;
+  font-size: 24px;
+  padding:0 .3rem ;
+}
+
+.hero p.about{
+  font-size:14px;
+  color:rgba(102, 85, 68, 0.5) ;
+  font-weight: bold;
+}
+
+.hero p.role{
+  padding:  .2rem .2rem;
+  color: rgba(102, 85, 68, 1);
+  font-size: 18px;
+  font-weight: bold;
+  background-color:rgba(102, 85, 68, 0.4);
+  opacity: 1;
+ }

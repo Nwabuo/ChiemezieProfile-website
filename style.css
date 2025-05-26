@@ -93,8 +93,9 @@ div.hero{
   padding: 10px 20px ;
   flex: 1, 0, 98%;
   flex-flow: row-reverse nowrap;
-  height: 200px;
+  min-height: 200px;
   width: 90%;
+  height: 70%;
   max-width: 1400px;
   
   margin: 15px auto 0 auto;

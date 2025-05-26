@@ -1,0 +1,154 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  width:100vw;
+  font-family: cascadia;
+  background-color: #d4d0c6;
+  overflow: scroll;
+}
+
+.nav-wrapper{
+  width:100%;
+  padding:5px 0;
+  background-color: #ffff;
+  box-shadow: 0 0 1px ;
+  overflow: hidden;
+}
+
+nav.navbar{
+  margin: 2px auto;
+  flex: 1;
+  padding: 0 3%;
+  max-width: 1500px;
+  color: #665544;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo{
+  font-style: normal;
+  transform: Capitaalize;
+}
+
+.nav-items{
+  height: 100%;
+  width: 40%;
+  max-width: 200px;
+}
+
+ul{
+  display:flex;
+  gap: 2%;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: : center;
+  
+}
+
+li{
+  
+  display: flex;
+  align-items: center;
+}
+
+li a{
+   padding: 5px 3px;
+   text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: expanded;
+  color: #665544;
+  border-radius: 2px;
+  
+ }
+ 
+li:nth-of-type(1) a{
+  color: #d4d0c6;
+  background-color: #665544;
+}
+
+div.hero-container{
+  width: 93%;
+  max-width: 1400px;
+  margin:  auto auto;
+  background-color: #e7e3d8;
+  box-shadow: 0 0 10px -2px #665544;
+}
+
+div.hero{
+  padding: 5px;
+  flex: 1, 0, 98%;
+  height: 200px;
+  width: 90%;
+  max-width: 1400px;
+  
+  margin: 15px auto 0 auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.hero-text-container{
+  width: 60%;
+  margin: 0;
+}
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 40%;
+  
+}
+
+.hero-text *{
+  margin: 5px 20px 5px 10px ;
+  text-wrap: wrap;
+}
+
+h1.hero-heading{
+  color: #665544;
+  font-size: 20px;a
+}
+
+.hero p{
+  font-size:10px;
+  color: rgba(232, 200, 73, 0.6 );
+  font-weight: bold;
+}
+
+@media(max-width:720px) {
+  nav.navbar{
+    
+  }
+  .logo{
+    font-size: 10px;
+    text-transform: capitalize;
+    
+  } 
+  li{
+    margin: 0;
+  }
+  
+  li a{
+    font-size: 3px;
+    
+  }
+  .hero-text *{
+    width: 120px !important;
+    
+    text-wrap: wrap;
+    
+  }
+  p
+}
+ 
